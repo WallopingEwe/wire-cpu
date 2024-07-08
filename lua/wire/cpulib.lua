@@ -1064,7 +1064,7 @@ CPU(009, "PUSH",          1,   1.00,    0,         "X",     "",      "Push X ont
 CPU(010, "ADD",           2,   1.00,    0,         "X",     "Y",     "X = X + Y")
 CPU(011, "SUB",           2,   1.00,    0,         "X",     "Y",     "X = X - Y")
 CPU(012, "MUL",           2,   1.00,    0,         "X",     "Y",     "X = X * Y")
-CPU(013, "DIV",           2,   1.00,    0,         "X",     "Y",     "X = X / Y")
+--CPU(013, "DIV",           2,   1.00,    0,         "X",     "Y",     "X = X / Y")
 CPU(014, "MOV",           2,   1.00,    0,         "X",     "Y",     "X = Y")
 CPU(015, "CMP",           2,   1.00,    0,         "X",     "Y",     "Compare X and Y. Use with conditional branching instructions")
 CPU(016, "RD",            2,   1.00,    R0+OB,     "X",     "PTR",   "Read value from memory by pointer PTR")
